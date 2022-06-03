@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<HTML>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Planeta viajes y traslados</title>
+    <link rel="icon" href="fotos/Logo pagina mundo.png">
+    </link:>
+    <link id="css-link" rel="stylesheet" href="diseño.contacto.css">
+</head>
+<body onload="contadorCaracteres()">
+    <header>
+        <div class="ancho">
+            <div class="logo">
+                <p><a href="Inicio.html"> <img src="Fotos/logo.png" width="200px" height="70px"></a></p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="Inicio.html">Inicio</a></li>
+                    <li><a href="Quienes Somos.html">Sobre Nosotros</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                    <li><a href="Fotos.html">Fotos</a></li>
+                    <li><a href="Trabaja con Nosotros.html">Trabaja con Nosotros</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <!--Cartel fijo de covid-->
+    <div class="covid">
+        COVID-19: Requisitos y protocolos de viaje -
+        <b><a href="https://www.argentina.gob.ar/transporte/covid-19/quienes-pueden-viajar" target="blank">CLICK
+                AQUI</a></b>
+    </div>
+
+<form id="formularioContacto" action="" class="formulario">
+    
+    <h1 class="formulario__titulo">Solicita tu presupuesto</h1>
+
+    <label for="nombreContacto" class="formulario__label">Ingrese su nombre: <span class="text-danger">*</span></label>
+    <input type="text" class="formulario__input" id="nombreContacto"><br>
+
+    <label for="edadFecha" class="formulario__label">Ingrese su edad: <span class="text-danger">*</span></label>
+     <input type="date" class="formulario__input" id="edadFecha"><br>
+    
+    <label for="emailContacto" class="formulario__label">Ingrese su email: <span class="text-danger">*</span></label>
+    <input type="email" class="formulario__input" id="emailContacto"><br>
+    
+    <label for="Asunto" class="formulario__label">Asunto:</label>
+     <input type="text" class="formulario__input" id="Asunto"> 
+    
+    <label for="txtContacto" id="cantCaracteresContacto">Caracteres: 0 <span class="text-danger">*</span></label>
+
+    <textarea placeholder="Ingrese texto" maxlength="500" class="form-control" id="txtContacto"></textarea><br>
+    
+    <input type="button" disabled="true" id="confirmarContacto" value="Confirmar" >
+    
+    <p class="small">El botón Enviar se habilitará cuando todos los campos marcados con <span class="text-danger">*</span> estén completos.</p>
+</form>
+<br>
+    <!--Inicio Footer-->
+    <footer>
+        <p class="redes">Seguinos en nuestras redes</p>
+        <a href="https://www.facebook.com/PlanetaViajesyTurismo" target="_BLANK"><img src="Fotos/Logoface.png" width="50px"
+                height="50px" alt="facebook"></a>
+        <a href="https://www.instagram.com/planeta_viajesyturismo/" target="_BLANK"><img src="Fotos/Logoinst.png"
+                width="50px" height="50px" alt="Instagram"></a>
+        <a href="https://api.whatsapp.com/send?phone=543413156356&app=facebook&entry_point=page_cta&fbclid=IwAR3p3uJvHzZXlJ2itdIfmqT2jyk2yRt-V-uadm-QjTjubthgls6MqbA0yvY"
+            target="_BLANK"><img src="Fotos/Logowpp.png" width="50px" height="50px" alt="Whatsapp"> </a>
+    
+        
+            <h4>Copyright © 2021 Planeta Viajes y traslados</h4>
+        
+    </footer>
+    <script type="text/javascript" src="Contacto.js"></script>
+    <!--Fin Footer
+-->
+</body>
+
+</HTML>
